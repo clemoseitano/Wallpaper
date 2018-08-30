@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wallpaper</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_name">Settings</string>
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    <string name="on_boot">Start app when phone finishes booting up</string>
+    <string name="restart_options">Restart Options</string>
+    <string name="wallpaper_interval">Wallpaper change interval</string>
+    <string name="change_interval">Change Interval</string>
+</resources>

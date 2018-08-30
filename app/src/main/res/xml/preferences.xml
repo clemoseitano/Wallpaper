@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/wallpaper_settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="app.freetime_wallpaper_pref_onboot"
+            android:summary="@string/on_boot"
+            android:title="@string/restart_options" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/time_values"
+            android:key="app.freetime_wallpaper_next"
+            android:summary="@string/wallpaper_interval"
+            android:title="@string/change_interval" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
